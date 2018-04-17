@@ -4,6 +4,7 @@
  * it must be executed by administrator
  * do not forget to quote password when asked
 */
+-- TODO : create 2 users : admin & user (set admin as owner)
 -- clean
 DROP DATABASE IF EXISTS neuronnetwork;
 DROP USER IF EXISTS neuronnetwork;

@@ -2,6 +2,7 @@
  * this script create the neuron network tables
  * it can be executed by neuronnetwork user
 */
+-- TODO : when 2 users : grant CRUD to user (no-admin)
 -- clean
 DROP TABLE IF EXISTS neuronnetwork.LAYER; 
 DROP TABLE IF EXISTS neuronnetwork.PERCEPTRON; 
