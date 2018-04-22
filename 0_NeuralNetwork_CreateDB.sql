@@ -6,14 +6,14 @@
 */
 -- TODO : create 2 users : admin & user (set admin as owner)
 -- clean
-DROP DATABASE IF EXISTS neuronnetwork;
-DROP USER IF EXISTS neuronnetwork;
+DROP DATABASE IF EXISTS neuralnetwork;
+DROP USER IF EXISTS neuralnetwork;
 -- create user
 DO $$
 DECLARE password TEXT;
 BEGIN
-	CREATE USER neuronnetwork;
-	ALTER USER neuronnetwork WITH ENCRYPTED PASSWORD :password;
+	CREATE USER neuralnetwork;
+	ALTER USER neuralnetwork WITH ENCRYPTED PASSWORD :password;
 END $$;
 -- create database
-CREATE DATABASE neuronnetwork WITH OWNER=neuronnetwork ENCODING='UTF-8' TEMPLATE=template0;
+CREATE DATABASE neuralnetwork WITH OWNER=neuralnetwork ENCODING='UTF-8' TEMPLATE=template0;
